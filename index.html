@@ -1,30 +1,96 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-  <!--Add the title of your typeform below-->
-  <title>Membership Application</title>
-
-  <!--CSS styles that ensure your typeform takes up all the available screen space (DO NOT EDIT!)-->
-  <style type="text/css">
-    html{
-      margin: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe{
-      position: absolute;
-      left:0;
-      right:0;
-      bottom:0;
-      top:0;
-      border:0;
-    }
-  </style>
+  <meta name="description" content="Connect with professional self-publishing authors from around the world. Share ideas and publish smarter.">
+  <meta name="keywords" content="slack community, writing community, author hangout, self-publishing, chat room, writing forum">
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <title>#Selfpubtalk</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top - 50
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
 </head>
 <body>
-  <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://selfpubtalk.typeform.com/to/xwnhu4"></iframe>
-  <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/share.typeform.com/embed.js"></script>
+  <nav>
+    <div class="left">
+      <h2>#Selfpubtalk</h2>
+    </div>
+    <div class="right">
+      <span class="text-fade desktop-only">already a member? </span><b><a href="https://selfpubtalk.slack.com" class="plain space-left btn-login">log in</a></b><a href="typeform.html" class="btn-blue space-left btn-sm desktop-only">BECOME A MEMBER</a>
+    </div>
+  </nav>
+  <header>
+    <div class="container text-center">
+      <img src="images/logo.png" alt="" width="140" />
+      <h1>A <b>Slack</b> community to help authors reach their self-publishing goals.</h1>
+      <a href="typeform.html" class="btn-blue">BECOME A MEMBER</a>
+      <div class="learn-more">
+        <a href="#start" class="btn-learn">learn more</a>
+      </div>
+    </div>
+  </header>
+  <section id="start">
+    <div class="container grid-bottom-lg grid-mobile">
+      <div class="text-center grid-v-md">
+        <h2>Join a community of professional authors</h2>
+        <p class="grid-top-xs">A water cooler for all authors looking to self-publish their books.</p>
+      </div>
+      <div class="row grid-top-sm two-column">
+        <div class="left">
+          <img src="images/slack.jpg" class="img-full" width="440" />
+        </div>
+        <div class="right">
+          <h3 class="grid-top-md grid-desktop">Engage with your fellow authors</h3>
+          <p><b>#Selfpubtalk</b> is a private space to discuss all things self-publishing. Open chat channels allow you to share and contribute to discussions on a wide variety of topics, from book design to email marketing. If you think a topic is missing, we'll happily add it for you!</p>
+        </div>
+      </div>
+      <div class="row grid-top-sm two-column">
+        <div class="left">
+          <h3 class="grid-top-md grid-desktop">Instant feedback on your book</h3>
+          <p>Because <b>#Selfpubtalk</b> is powered by Slack, you can have your most pressing questions answered in real time by other members. Take part in open discussions and live Q&amp;As to learn self-publishing directly from successful authors and professionals.</p>
+        </div>
+        <div class="right reorder">
+          <img src="images/feedback.jpg" class="img-full" width="440" />
+        </div>
+      </div>
+      <div class="row grid-v-sm two-column">
+        <div class="left">
+          <img src="images/earth.jpg" class="img-full" width="440" />
+        </div>
+        <div class="right">
+          <h3 class="grid-top-lg grid-desktop">Meet talented authors from around the world</h3>
+          <p>Your family and friends may support your writing, but they won't be able to help you self-publish. Meet experienced authors from around the world who can help!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+  <div class="container text-center">
+    <h2 class="text-white grid-top-xl">Create your free account here</h2>
+    <p class="text-white grid-v-xs">Registration only takes 2 minutes.</p>
+    <a href="typeform.html" class="btn-blue-dark grid-top-xs">BECOME A MEMBER</a>
+  </div>
+  </section>
+  <footer class="text-center">
+    <a class="white" href="https://twitter.com/selfpubtalk">
+      <img src="images/twitter.svg" width="34" /><br>
+      <b>Follow #selfpubtalk on twitter</b>
+    </a>
+  </footer>
 </body>
 </html>

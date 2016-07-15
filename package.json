@@ -1,0 +1,22 @@
+{
+  "name": "selfpubtalk",
+  "version": "1.0.0",
+  "description": "Landing page selfpubtalk",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedsy/typeform.git"
+  },
+  "author": "Matthew Cobb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reedsy/typeform/issues"
+  },
+  "homepage": "https://github.com/reedsy/typeform#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
