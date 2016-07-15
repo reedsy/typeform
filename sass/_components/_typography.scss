@@ -1,0 +1,54 @@
+// Main Components
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color:#4D4D4D;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin:0;
+  padding:0;
+}
+
+h1, h2{
+  font-size: 33px;
+  @media (min-width:660px){
+    font-size:40px;
+  }
+}
+
+h3{
+  font-size: 24px;
+  margin-bottom:10px;
+  @media (min-width:660px){
+    font-size:30px;
+  }
+}
+
+p{
+  line-height: 1.5em;
+}
+
+.text-center{
+  text-align: center;
+}
+
+a.plain{
+  text-decoration: none;
+  color:$black-base;
+}
+
+a.white{
+  text-decoration: none;
+  color:$white;
+}
+
+.text-fade{
+  color:$grey-base;
+}
+
+.text-white{
+  color:$white;
+}
