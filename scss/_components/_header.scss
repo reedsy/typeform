@@ -11,9 +11,9 @@ header{
   padding-top:80px;
   @media (min-width:660px){
     padding-top:110px;
-    background: image-url('header.jpg') center center;
+    background: url('../images/header.jpg') center center;
     background-size: cover;
-    min-height: 740px;
+    min-height: 720px;
   }
   .learn-more{
     position:absolute;
