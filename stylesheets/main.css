@@ -35,7 +35,11 @@ section {
     @media (min-width: 660px) {
       .two-column .left, .two-column .right {
         width: 50%;
-        padding: 20px; } }
+        padding: 20px; }
+        .two-column .left h3, .two-column .left p, .two-column .right h3, .two-column .right p {
+          padding: 0px 20px; } }
+    .two-column .left .img-full, .two-column .right .img-full {
+      padding: 20px 0px; }
 
 .reorder {
   order: -1; }

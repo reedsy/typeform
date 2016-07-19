@@ -34,7 +34,6 @@ section {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   .left, .right {
@@ -43,6 +42,12 @@ section {
     @media (min-width:660px){
       width:50%;
       padding:20px;
+      h3, p{
+        padding:0px 20px;
+      }
+    }
+    .img-full{
+      padding:20px 0px;
     }
   }
 }
