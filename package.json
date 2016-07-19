@@ -15,6 +15,7 @@
   "homepage": "https://github.com/reedsy/typeform#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0"
   }
